@@ -20,7 +20,7 @@ const achievements = [
     },
     {
         no:4,
-        courser:"Introduction to Web Development",
+        course:"Introduction to Web Development",
         platform :"University of California,Davis offered through Coursera",
         year:"Issued june 27, 2024",
     }
