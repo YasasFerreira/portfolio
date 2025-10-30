@@ -8,6 +8,7 @@ const Hero = () => {
     <div id='home' className='hero'>
         <img src={profile} alt="" />
         <h1><span>I am Yasas Ferreira</span></h1>
+        <h2>CS Undergraduate | Frontend & Mobile Developer | Tech Enthusiast</h2>
         <p>I am an undergraduate computer science student with a strong interest in web development,
             mobile app development,data science and machine learning. i enjoy solving real world problems
             throuhg technology and continuosly learning new tolls and frameworks. 

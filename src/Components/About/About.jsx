@@ -8,14 +8,19 @@ const About = () => {
         <div className="about-title">
             <h1>About me</h1>
             <img src="" alt="" />
+            
         </div>
-        <div className="about-sections">
+        <div className="about-sections">`
+             
             <div className="about-left">
                 <img src={profile} alt="profile" className='about-left-img '/>
             </div>
             <div className="about-right">
+               
                 
                 <div className="about-para">
+                    
+        
                     <p>
                         I am an undergraduate computer science student with a strong interest in web development,
                         mobile app development,data science and machine learning. i enjoy solving real world problems
