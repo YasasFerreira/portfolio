@@ -10,6 +10,7 @@
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
+	 
   },
   "dependencies": {
     "firebase": "^12.5.0",
@@ -32,5 +33,5 @@
   "overrides": {
     "vite": "npm:rolldown-vite@7.1.14"
   },
-  "homepage": "https://yasasferreira.github.io/portfolio"
+  "homepage": "https://YasasFerreira.github.io/portfolio"
 }
