@@ -12,7 +12,7 @@
 }
 .about-title h1{
     padding: 0px 30px;
-    font-size: 80px;
+    font-size: 65px;
     font-weight: 600;
     border-bottom: 5px solid #EE0979;
 }
@@ -30,7 +30,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }
 .about-skills{
@@ -47,7 +47,7 @@
 }
 .about-skill p{
     min-width: 150px;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 500;
 }.about-skill hr{
     outline: none;

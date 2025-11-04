@@ -1,5 +1,9 @@
 import React from 'react'
 import "./Contact.css"
+import call_icon from "../../assets/call_icon.svg"
+import mail_icon from "../../assets/mail_icon.svg"
+import location_icon from "../../assets/location_icon.svg"
+
 const Contact = () => {
   return (
     <div className='contact' id='contact'>
@@ -12,15 +16,15 @@ const Contact = () => {
                 <p>I am always open to discussing new projects, creative ideas or opportunities to be part of your visions.</p>
                 <div className="contact-detail">
                     <div className="contact-details">
-                    <img src=''/>
+                    <img src={mail_icon}/>
                     <p>yasasferreira05@gmail.com</p>
                     </div>
                     <div className="contact-details">
-                    <img src=''/>
+                    <img src={call_icon}/>
                     <p>+94 76 275 1352</p>
                     </div>
                     <div className="contact-details">
-                    <img src=''/>
+                    <img src={location_icon}/>
                     <p>Gampaha,Sri Lanka.</p>
                         
                     </div>

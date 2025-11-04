@@ -11,8 +11,8 @@
 }
 .achivements-title h1{
     padding: 0px 30px;
-    font-size: 80px;
-    font-weight: 600;
+    font-size: 65px;
+    font-weight: 700;
 }
 .achivements-container{
     display: grid;
@@ -25,18 +25,18 @@
     flex-direction: column;
     justify-content: center;
     gap: 20px;
-    padding: 60px ;
+    padding: 30px ;
     border-radius: 10px;
     border: 2px solid white;
     transition: 0.4s;
     cursor: pointer;
 }
 .achivements-format h3{
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
 }
 .achivements-format h2{
-    font-size: 38px;
+    font-size: 24px;
     font-weight: 800;
     background: linear-gradient(267deg,#FF6A00,#EE0979);
     background-clip: text;
@@ -45,7 +45,7 @@
 }
 .achivements-format p{
     color: #d4d4d4;
-    font-size: 24px;
+    font-size: 18px;
     line-height: 40px;
     max-width: 300px;
 }
