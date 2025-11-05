@@ -18,6 +18,12 @@
     font-size: 70px;
     font-weight: 900;
 }
+.hero h2{
+    text-align: center;
+    width: 70%;
+    font-size: 70px;
+    font-weight: 900;
+}
 .hero h1 span{
     background: linear-gradient(267deg,#FF6A00,#EE0979);
     background-clip: text;
@@ -73,8 +79,10 @@
     }
     .hero h2{
         margin-top: 0px;
-        width: 90%;
-        font-size: 22px;
+        width: 100%;
+        font-size: 20px;
+        align-items: center;
+        justify-content: center;
     }
     .hero p{
         width: 60%;
