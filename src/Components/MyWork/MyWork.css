@@ -14,7 +14,7 @@
     padding: 0px 30px;
     font-size: 65px;
     font-weight: 700;
-    border-bottom: 2px solid #EE0979;
+    
 }
 
 .mywork-title img{
@@ -64,7 +64,7 @@
     transition: 0.6s;
     transform: scale(1.05);
 }
-@media(max-width:768px){
+@media(max-width:1060px){
     .mywork{
         gap: 50px;
         margin: 50px 70px;

@@ -1,12 +1,14 @@
 import React from 'react'
 import achievements from '../../assets/achievements'
 import './Achivements.css'
+import line from "../../assets/theme_pattern.svg"
 
 const Achivements = () => {
   return (
-    <div className='achivements'>
+    <div id="achivements" className='achivements' >
         <div className="achivements-title">
             <h1>Achivements</h1>
+            <img src={line} alt="" />
         </div>
         <div className="achivements-container">
             {

@@ -14,6 +14,13 @@
     font-size: 65px;
     font-weight: 700;
 }
+.achivements-title img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: -1;
+        
+}
 .achivements-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -54,4 +61,34 @@
     background-image: linear-gradient(45deg,#3f0028,#582300);
     transform: scale(1.05);
     transition: 0.4s;
+}
+@media(max-width:1060px){
+    .achivements{
+        align-items: start;
+        gap: 70px;
+        margin: 20px 70px;
+    }
+    .achivements-title h1{
+        font-size: 50px;
+        padding: 0;
+    }
+    .achivements-title img{
+        width: 130px;
+        margin-right: -20px;
+    }
+    .achivements-format{
+        gap:15px;
+        padding: 20px;
+    }
+    .achivements-format h2{
+        font-size: 24px;
+    }
+    .achivements-format p{
+        font-size: 18px;
+        line-height: 32px;
+        max-width: 300px;
+    }
+    .achivements-container{
+        grid-template-columns: 1fr 1fr;
+    }
 }

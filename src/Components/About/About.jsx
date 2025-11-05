@@ -1,14 +1,14 @@
 import React from 'react'
 import "./About.css"
 import profile from "../../assets/profile.png"
-import underline from "../../assets/nav_underline.svg"
+import line from "../../assets/theme_pattern.svg"
 
 const About = () => {
   return (
     <div id='about' className='about'>
         <div className="about-title">
             <h1>About me</h1>
-            <img src={underline} alt="" />
+            <img src={line} alt="" />
             
         </div>
         <div className="about-sections">
