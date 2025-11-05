@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist -r https://github.com/YasasFerreira/portfolio.git"
-
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "firebase": "^12.5.0",
