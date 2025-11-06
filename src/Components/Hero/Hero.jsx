@@ -2,6 +2,7 @@ import React from 'react'
 import "./Hero.css"
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import profile from "../../assets/profile.png"
+import resume from "../../assets/resume.pdf"
 
 const Hero = () => {
   return (
@@ -19,7 +20,7 @@ const Hero = () => {
                 Connect with me
                 </AnchorLink>
             </div>
-             <a href="/resume.pdf" download>
+             <a href={resume} download>
                 <div className="hero-resume">
                     My resume
                 </div>
