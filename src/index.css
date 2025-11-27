@@ -1,68 +1,73 @@
-:root {
+:root{
+  --bg: #0b1120;
+  --bg-section: #0b1120;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #cbd5e1;
+  --accent: #6366f1;
+  --accent-2: #22d3ee;
+}
+
+/* light theme variables */
+.light {
+  --bg: #ffffff;
+  --bg-section: #f5f7fb;
+  --card: #ffffff;
+  --text: #111827;
+  --muted: #4b5563;
+  --accent: #4f46e5;
+  --accent-2: #06b6d4;
+}
+
+/* dark theme variables (default) */
+.dark {
+  --bg: #0b1120;
+  --bg-section: #0b1120;
+  --card: #111827;
+  --text: #e5e7eb;
+  --muted: #cbd5e1;
+  --accent: #6366f1;
+  --accent-2: #22d3ee;
+}
+
+/* apply basic global colors using variables */
+html, body {
+  background: var(--bg);
+  color: var(--text);
+  margin: 0;
+  padding: 0;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+/* make common sections pick up the theme even if they use hardcoded names elsewhere */
+.navbar,
+.hero,
+.about,
+.skills,
+.projects,
+.education,
+.contact,
+.footer,
+footer {
+  background: var(--bg-section);
+  color: var(--text);
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+/* override frequently-used card/background colors */
+.card,
+.education-card,
+.project-card,
+.mywork-item,
+.contact-right,
+.contact-left,
+footer {
+  background: var(--card);
+  color: var(--text);
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-}
+/* a few utility helpers */
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); }
+button { color: var(--text); }
