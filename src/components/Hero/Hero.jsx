@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import profile from "../../assets/profile.png";
-// import resume from "../../assets/resume.pdf";
+import resume from "../../assets/resume.pdf";
 
 const Hero = () => {
   return (
@@ -17,7 +17,7 @@ const Hero = () => {
         </p>
         <div className="hero-buttons">
           <AnchorLink href="#contact" className="btn-connect">Connect with me</AnchorLink>
-          <a href={""} download className="btn-resume">Download Resume</a>
+          <a href={resume} download className="btn-resume">Download Resume</a>
         </div>
       </div>
       <div className="hero-right">

@@ -3,28 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
-  // read saved theme from localStorage if available; default to 'dark'
-  const [dark, setDark] = useState(() => {
-    try {
-      return (localStorage.getItem("theme") || "dark") === "dark";
-    } catch {
-      return true;
-    }
-  });
 
-  useEffect(() => {
-    // apply theme class to <html> (better than document.body)
-    const html = document.documentElement;
-    if (dark) {
-      html.classList.add("dark");
-      html.classList.remove("light");
-      localStorage.setItem("theme", "dark");
-    } else {
-      html.classList.add("light");
-      html.classList.remove("dark");
-      localStorage.setItem("theme", "light");
-    }
-  }, [dark]);
 
   return (
     <nav className="navbar">
@@ -39,13 +18,8 @@ const Navbar = () => {
       </div>
 
       <div className="right-controls">
-        <button
-          className="theme-toggle"
-          aria-label="Toggle theme"
-          onClick={() => setDark(prev => !prev)}
-        >
-          {dark ? "☀️" : "🌙"}
-        </button>
+ 
+
 
         <div
           className="hamburger"
