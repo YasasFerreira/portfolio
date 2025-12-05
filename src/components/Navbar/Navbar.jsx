@@ -19,8 +19,6 @@ const Navbar = () => {
 
       <div className="right-controls">
  
-
-
         <div
           className="hamburger"
           onClick={() => setMenuOpen(prev => !prev)}

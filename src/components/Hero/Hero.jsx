@@ -2,7 +2,7 @@ import React from "react";
 import "./Hero.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import profile from "../../assets/profile.png";
-import resume from "../../assets/resume.pdf";
+import resume from "../../assets/Yasas Ferreira.pdf";
 
 const Hero = () => {
   return (
