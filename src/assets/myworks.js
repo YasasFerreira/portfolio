@@ -4,6 +4,7 @@ import hotel_system from "./hotel_system.png"
 import portfolio from "./portfolio.png"
 import sell_me from "./sell_me.png"
 import todo_task from "./todo_task.png"
+import uniCMS from './uniSMS.png'
 
 const work_list=[
     {
@@ -47,6 +48,13 @@ const work_list=[
         image:ev_ranger,
         description:"A moblie app using reactnative to predict the range of electric vehicles based on various factors",
         link:"https://github.com/YasasFerreira/EV-Range-predictor-",
+    },
+    {
+        name:"University Course Managment SYstem",
+        type :'Individual',
+        image:uniCMS,
+        description :"A web application using laravel and react to manage university course, students and lecturers.",
+        link:'https://github.com/YasasFerreira/StudentManagementSystem',
     }
 ]
 
